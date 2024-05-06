@@ -1,0 +1,128 @@
+/* styles.css */
+
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+/* Body styles */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    background-color: #1a1a1a;
+    color: #ccc;
+
+    
+    background-image: url('Images/webImage.png');
+    background-size: cover; /* Optional: Adjusts the size of the background image to cover the entire viewport */
+    background-position: center;
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+
+ 
+}
+
+/* Header styles */
+header {
+    background-color: #000000; /* Dark purple */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+
+}
+
+header h1 {
+    margin: 0;
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+nav ul li:first-child {
+    margin-left: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ccc;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #fff;
+}
+
+/* Main styles */
+main {
+    padding: 10px;
+    border-top: 2px solid white;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+/* Footer styles */
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #5900ff; /* Dark purple */
+    color: #fafafa;
+    padding: 20px;
+    z-index: 999;
+    height: 60px;
+}
+.outlined-section {
+    width: 90%; /* Set the desired width of the section */
+    margin: 0 auto; /* Center the section horizontally */
+    border: 1px solid rgb(255, 255, 255); /* Example outline style */
+    padding: 20px;
+    box-sizing: border-box; /* Include padding and border in the width */
+    margin-bottom: 50px;
+}
+.hobbies {
+    padding: 20px;
+    list-style-type: circle; /* Change bullet style (e.g., circle, square, disc) */
+}
+ul {
+    list-style-type: circle;
+     /* Change bullet style (e.g., circle, square, disc) */
+}
+nav ul li a:hover {
+    
+    color: rgb(255, 255, 255); /* Change text color to red when hovering */
+    font-weight: bold; /* Make text bold when hovering */
+    text-decoration: underline; /* Add underline when hovering */
+    /* Add any other styles to make the text stand out */
+}
+.centered {
+    margin: auto;
+    text-align: center;
+}
+.custom_bul_points {
+    padding: 20px;
+    list-style-type: circle; /* Change bullet style (e.g., circle, square, disc) */
+}

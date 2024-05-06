@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stephan Vosloo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Stephan Vosloo</h1>
+        <!-- Add navigation, logo, etc. here -->
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about_me_page.html">About Me</a></li>
+            <li><a href="projects_page.html">Projects</a></li>
+            <li><a href="contact_page.html">Contact</a></li>
+            <!-- Add more navigation links as needed -->
+        </ul>
+    </nav>
+
+    <main>
+        
+        <!-- Main content of your website goes here -->
+<!--         image doesnt want to work -->
+        <section>
+            <h3>Welcome...</h3>
+        </section>
+        <div id="quote-container">
+            <p id="quote-text">Loading...</p>
+        </div>
+    
+        <script>
+            // Array of quotes
+            const quotes = [
+                "People work better when they know what the goal is and why. - Elon Musk",
+                "It is not death that a man should fear, but he should fear never beginning to live. - Marcus Aurelius",
+                "Talk is cheap. Show me the code. - Linus Torvalds",
+                "Innovation distinguishes between a leader and a follower. - Steve Jobs",
+                "Strive not to be a success, but rather to be of value. - Albert Einstein",
+                "The only limit to our realization of tomorrow will be our doubts of today. - Franklin D. Roosevelt",
+                "The only true wisdom is in knowing you know nothing. - Socrates",
+                "The only thing necessary for the triumph of evil is for good men to do nothing. - Edmund Burke",
+                "The measure of intelligence is the ability to change. - Albert Einstein"
+                // Add more quotes as needed
+            ];
+    
+            // Function to get a random quote
+            function getRandomQuote() {
+                const randomNumber = Math.floor(Math.random() * quotes.length);
+                return quotes[randomNumber];
+            }
+    
+            // Display a random quote when the page loads
+            document.addEventListener('DOMContentLoaded', function() {
+                const quoteText = document.getElementById('quote-text');
+                quoteText.textContent = getRandomQuote();
+            });
+        </script>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Vossie Vosloo </p>
+
+        <!-- Add footer links, copyright information, etc. here -->
+    </footer>
+
+</body>
+</html>
