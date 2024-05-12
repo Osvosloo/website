@@ -113,14 +113,17 @@ footer {
     height: 60px;
 }
 .outlined-section {
-    width: 90%; /* Set the desired width of the section */
+    width: 95%; /* Set the desired width of the section */
     margin: 0 auto; /* Center the section horizontally */
     border: 1px solid rgb(255, 255, 255); /* Example outline style */
-    padding: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     box-sizing: border-box; /* Include padding and border in the width */
-    margin-bottom: 50px;
+    margin-bottom: 25px;
 }
 .hobbies {
+    padding-left: 20px;
     list-style-type: circle; /* Change bullet style (e.g., circle, square, disc) */
 }
 .curr-page-link {
