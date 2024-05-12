@@ -121,7 +121,6 @@ footer {
     margin-bottom: 50px;
 }
 .hobbies {
-    padding: 20px;
     list-style-type: circle; /* Change bullet style (e.g., circle, square, disc) */
 }
 .curr-page-link {
